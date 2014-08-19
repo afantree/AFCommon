@@ -10,3 +10,6 @@
 *.xcuserdatad
 xcuserdata
 *.xcworkspacedata
+xcshareddata
+
+
