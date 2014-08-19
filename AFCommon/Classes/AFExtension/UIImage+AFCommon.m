@@ -19,7 +19,7 @@ CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint
 	
 	// create the bitmap context
 	CGContextRef gradientBitmapContext = CGBitmapContextCreate(NULL, pixelsWide, pixelsHigh,
-															   8, 0, colorSpace, kCGImageAlphaNone);
+															   8, 0, colorSpace, kCGBitmapByteOrderDefault);
 	
 	// define the start and end grayscale values (with the alpha, even though
 	// our bitmap context doesn't support alpha the gradient requires it)
@@ -121,7 +121,7 @@ CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint
     int h = self.size.height;
     
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-    CGContextRef context = CGBitmapContextCreate(NULL, w, h, 8, 4 * w, colorSpace, kCGImageAlphaPremultipliedFirst);
+    CGContextRef context = CGBitmapContextCreate(NULL, w, h, 8, 4 * w, colorSpace, kCGBitmapByteOrderDefault);
     CGRect rect = CGRectMake(0, 0, w, h);
     CGContextBeginPath(context);
     
