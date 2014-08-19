@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146F180B19A3379E00135789 /* AFExtension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475145D19A31E5600F65765 /* AFExtension.h */; };
+		146F180C19A3379E00135789 /* NSArray+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475145E19A31E5600F65765 /* NSArray+AFCommon.h */; };
+		146F180D19A3379E00135789 /* NSString+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475146019A31E5600F65765 /* NSString+AFCommon.h */; };
+		146F180E19A3379E00135789 /* UIButton+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475146219A31E5600F65765 /* UIButton+AFCommon.h */; };
+		146F180F19A3379E00135789 /* UIColor+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475146419A31E5600F65765 /* UIColor+AFCommon.h */; };
+		146F181019A3379E00135789 /* UIImage+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475146819A31E5600F65765 /* UIImage+AFCommon.h */; };
+		146F181119A3379E00135789 /* UILabel+VerticalAlign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475146A19A31E5600F65765 /* UILabel+VerticalAlign.h */; };
+		146F181219A3379E00135789 /* UIView+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475147219A31E5600F65765 /* UIView+AFCommon.h */; };
+		146F181319A3379E00135789 /* UIDevice+AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475148519A327F200F65765 /* UIDevice+AFCommon.h */; };
+		1475147819A31E5600F65765 /* NSArray+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475145F19A31E5600F65765 /* NSArray+AFCommon.m */; };
+		1475147919A31E5600F65765 /* NSString+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475146119A31E5600F65765 /* NSString+AFCommon.m */; };
+		1475147A19A31E5600F65765 /* UIButton+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475146319A31E5600F65765 /* UIButton+AFCommon.m */; };
+		1475147B19A31E5600F65765 /* UIColor+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475146519A31E5600F65765 /* UIColor+AFCommon.m */; };
+		1475147D19A31E5600F65765 /* UIImage+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475146919A31E5600F65765 /* UIImage+AFCommon.m */; };
+		1475147E19A31E5600F65765 /* UILabel+VerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475146B19A31E5600F65765 /* UILabel+VerticalAlign.m */; };
+		1475148219A31E5600F65765 /* UIView+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475147319A31E5600F65765 /* UIView+AFCommon.m */; };
+		1475148719A327F200F65765 /* UIDevice+AFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475148619A327F200F65765 /* UIDevice+AFCommon.m */; };
+		14ACEC8319A1C7A90043C1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACEC8219A1C7A90043C1C0 /* Foundation.framework */; };
+		14ACEC9119A1C7A90043C1C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACEC9019A1C7A90043C1C0 /* XCTest.framework */; };
+		14ACEC9219A1C7A90043C1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACEC8219A1C7A90043C1C0 /* Foundation.framework */; };
+		14ACEC9719A1C7A90043C1C0 /* libAFCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACEC7F19A1C7A90043C1C0 /* libAFCommon.a */; };
+		14ACEC9D19A1C7A90043C1C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14ACEC9B19A1C7A90043C1C0 /* InfoPlist.strings */; };
+		14ACEC9F19A1C7A90043C1C0 /* AFCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ACEC9E19A1C7A90043C1C0 /* AFCommonTests.m */; };
+		14ACED4219A1D4EB0043C1C0 /* AFCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14ACECE519A1D4300043C1C0 /* AFCommon.h */; };
+		14ACED4319A1D4EB0043C1C0 /* AFCommonConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14ACECE619A1D4300043C1C0 /* AFCommonConfig.h */; };
+		14ACED6219A1D5A00043C1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6119A1D5A00043C1C0 /* UIKit.framework */; };
+		14ACED6419A1D5C10043C1C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6319A1D5C10043C1C0 /* CoreGraphics.framework */; };
+		14ACED6619A1D5CD0043C1C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6519A1D5CD0043C1C0 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14ACEC9519A1C7A90043C1C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ACEC7719A1C7A90043C1C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14ACEC7E19A1C7A90043C1C0;
+			remoteInfo = AFCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14ACEC7D19A1C7A90043C1C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				146F180B19A3379E00135789 /* AFExtension.h in CopyFiles */,
+				146F180C19A3379E00135789 /* NSArray+AFCommon.h in CopyFiles */,
+				146F180D19A3379E00135789 /* NSString+AFCommon.h in CopyFiles */,
+				146F180E19A3379E00135789 /* UIButton+AFCommon.h in CopyFiles */,
+				146F180F19A3379E00135789 /* UIColor+AFCommon.h in CopyFiles */,
+				146F181019A3379E00135789 /* UIImage+AFCommon.h in CopyFiles */,
+				146F181119A3379E00135789 /* UILabel+VerticalAlign.h in CopyFiles */,
+				146F181219A3379E00135789 /* UIView+AFCommon.h in CopyFiles */,
+				146F181319A3379E00135789 /* UIDevice+AFCommon.h in CopyFiles */,
+				14ACED4219A1D4EB0043C1C0 /* AFCommon.h in CopyFiles */,
+				14ACED4319A1D4EB0043C1C0 /* AFCommonConfig.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1475145D19A31E5600F65765 /* AFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFExtension.h; sourceTree = "<group>"; };
+		1475145E19A31E5600F65765 /* NSArray+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AFCommon.h"; sourceTree = "<group>"; };
+		1475145F19A31E5600F65765 /* NSArray+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AFCommon.m"; sourceTree = "<group>"; };
+		1475146019A31E5600F65765 /* NSString+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AFCommon.h"; sourceTree = "<group>"; };
+		1475146119A31E5600F65765 /* NSString+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AFCommon.m"; sourceTree = "<group>"; };
+		1475146219A31E5600F65765 /* UIButton+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFCommon.h"; sourceTree = "<group>"; };
+		1475146319A31E5600F65765 /* UIButton+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFCommon.m"; sourceTree = "<group>"; };
+		1475146419A31E5600F65765 /* UIColor+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AFCommon.h"; sourceTree = "<group>"; };
+		1475146519A31E5600F65765 /* UIColor+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AFCommon.m"; sourceTree = "<group>"; };
+		1475146819A31E5600F65765 /* UIImage+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFCommon.h"; sourceTree = "<group>"; };
+		1475146919A31E5600F65765 /* UIImage+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFCommon.m"; sourceTree = "<group>"; };
+		1475146A19A31E5600F65765 /* UILabel+VerticalAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlign.h"; sourceTree = "<group>"; };
+		1475146B19A31E5600F65765 /* UILabel+VerticalAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlign.m"; sourceTree = "<group>"; };
+		1475147219A31E5600F65765 /* UIView+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFCommon.h"; sourceTree = "<group>"; };
+		1475147319A31E5600F65765 /* UIView+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFCommon.m"; sourceTree = "<group>"; };
+		1475148519A327F200F65765 /* UIDevice+AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+AFCommon.h"; sourceTree = "<group>"; };
+		1475148619A327F200F65765 /* UIDevice+AFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+AFCommon.m"; sourceTree = "<group>"; };
+		14ACEC7F19A1C7A90043C1C0 /* libAFCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ACEC8219A1C7A90043C1C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14ACEC8619A1C7A90043C1C0 /* AFCommon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFCommon-Prefix.pch"; sourceTree = "<group>"; };
+		14ACEC8F19A1C7A90043C1C0 /* AFCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ACEC9019A1C7A90043C1C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14ACEC9A19A1C7A90043C1C0 /* AFCommonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFCommonTests-Info.plist"; sourceTree = "<group>"; };
+		14ACEC9C19A1C7A90043C1C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14ACEC9E19A1C7A90043C1C0 /* AFCommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCommonTests.m; sourceTree = "<group>"; };
+		14ACECE519A1D4300043C1C0 /* AFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCommon.h; sourceTree = "<group>"; };
+		14ACECE619A1D4300043C1C0 /* AFCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCommonConfig.h; sourceTree = "<group>"; };
+		14ACED4119A1D4490043C1C0 /* AFCommon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AFCommon-Info.plist"; sourceTree = "<group>"; };
+		14ACED6119A1D5A00043C1C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14ACED6319A1D5C10043C1C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14ACED6519A1D5CD0043C1C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14ACEC7C19A1C7A90043C1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACED6619A1D5CD0043C1C0 /* QuartzCore.framework in Frameworks */,
+				14ACED6419A1D5C10043C1C0 /* CoreGraphics.framework in Frameworks */,
+				14ACED6219A1D5A00043C1C0 /* UIKit.framework in Frameworks */,
+				14ACEC8319A1C7A90043C1C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ACEC8C19A1C7A90043C1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACEC9119A1C7A90043C1C0 /* XCTest.framework in Frameworks */,
+				14ACEC9219A1C7A90043C1C0 /* Foundation.framework in Frameworks */,
+				14ACEC9719A1C7A90043C1C0 /* libAFCommon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1475145C19A31E5600F65765 /* AFExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1475145D19A31E5600F65765 /* AFExtension.h */,
+				1475145E19A31E5600F65765 /* NSArray+AFCommon.h */,
+				1475145F19A31E5600F65765 /* NSArray+AFCommon.m */,
+				1475146019A31E5600F65765 /* NSString+AFCommon.h */,
+				1475146119A31E5600F65765 /* NSString+AFCommon.m */,
+				1475146219A31E5600F65765 /* UIButton+AFCommon.h */,
+				1475146319A31E5600F65765 /* UIButton+AFCommon.m */,
+				1475146419A31E5600F65765 /* UIColor+AFCommon.h */,
+				1475146519A31E5600F65765 /* UIColor+AFCommon.m */,
+				1475146819A31E5600F65765 /* UIImage+AFCommon.h */,
+				1475146919A31E5600F65765 /* UIImage+AFCommon.m */,
+				1475146A19A31E5600F65765 /* UILabel+VerticalAlign.h */,
+				1475146B19A31E5600F65765 /* UILabel+VerticalAlign.m */,
+				1475147219A31E5600F65765 /* UIView+AFCommon.h */,
+				1475147319A31E5600F65765 /* UIView+AFCommon.m */,
+				1475148519A327F200F65765 /* UIDevice+AFCommon.h */,
+				1475148619A327F200F65765 /* UIDevice+AFCommon.m */,
+			);
+			path = AFExtension;
+			sourceTree = "<group>";
+		};
+		14ACEC7619A1C7A90043C1C0 = {
+			isa = PBXGroup;
+			children = (
+				14ACECE419A1D4300043C1C0 /* Classes */,
+				14ACEC8419A1C7A90043C1C0 /* AFCommon */,
+				14ACEC9819A1C7A90043C1C0 /* AFCommonTests */,
+				14ACEC8119A1C7A90043C1C0 /* Frameworks */,
+				14ACEC8019A1C7A90043C1C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14ACEC8019A1C7A90043C1C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14ACEC7F19A1C7A90043C1C0 /* libAFCommon.a */,
+				14ACEC8F19A1C7A90043C1C0 /* AFCommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14ACEC8119A1C7A90043C1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14ACED6519A1D5CD0043C1C0 /* QuartzCore.framework */,
+				14ACED6319A1D5C10043C1C0 /* CoreGraphics.framework */,
+				14ACED6119A1D5A00043C1C0 /* UIKit.framework */,
+				14ACEC8219A1C7A90043C1C0 /* Foundation.framework */,
+				14ACEC9019A1C7A90043C1C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14ACEC8419A1C7A90043C1C0 /* AFCommon */ = {
+			isa = PBXGroup;
+			children = (
+				14ACEC8519A1C7A90043C1C0 /* Supporting Files */,
+			);
+			path = AFCommon;
+			sourceTree = "<group>";
+		};
+		14ACEC8519A1C7A90043C1C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14ACED4119A1D4490043C1C0 /* AFCommon-Info.plist */,
+				14ACEC8619A1C7A90043C1C0 /* AFCommon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14ACEC9819A1C7A90043C1C0 /* AFCommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				14ACEC9E19A1C7A90043C1C0 /* AFCommonTests.m */,
+				14ACEC9919A1C7A90043C1C0 /* Supporting Files */,
+			);
+			path = AFCommonTests;
+			sourceTree = "<group>";
+		};
+		14ACEC9919A1C7A90043C1C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14ACEC9A19A1C7A90043C1C0 /* AFCommonTests-Info.plist */,
+				14ACEC9B19A1C7A90043C1C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14ACECE419A1D4300043C1C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1475145C19A31E5600F65765 /* AFExtension */,
+				14ACECE519A1D4300043C1C0 /* AFCommon.h */,
+				14ACECE619A1D4300043C1C0 /* AFCommonConfig.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14ACEC7E19A1C7A90043C1C0 /* AFCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ACECA219A1C7A90043C1C0 /* Build configuration list for PBXNativeTarget "AFCommon" */;
+			buildPhases = (
+				14ACEC7B19A1C7A90043C1C0 /* Sources */,
+				14ACEC7C19A1C7A90043C1C0 /* Frameworks */,
+				14ACEC7D19A1C7A90043C1C0 /* CopyFiles */,
+				14ACECE319A1CD180043C1C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFCommon;
+			productName = AFCommon;
+			productReference = 14ACEC7F19A1C7A90043C1C0 /* libAFCommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		14ACEC8E19A1C7A90043C1C0 /* AFCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ACECA519A1C7A90043C1C0 /* Build configuration list for PBXNativeTarget "AFCommonTests" */;
+			buildPhases = (
+				14ACEC8B19A1C7A90043C1C0 /* Sources */,
+				14ACEC8C19A1C7A90043C1C0 /* Frameworks */,
+				14ACEC8D19A1C7A90043C1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14ACEC9619A1C7A90043C1C0 /* PBXTargetDependency */,
+			);
+			name = AFCommonTests;
+			productName = AFCommonTests;
+			productReference = 14ACEC8F19A1C7A90043C1C0 /* AFCommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14ACEC7719A1C7A90043C1C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ManGang;
+			};
+			buildConfigurationList = 14ACEC7A19A1C7A90043C1C0 /* Build configuration list for PBXProject "AFCommon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14ACEC7619A1C7A90043C1C0;
+			productRefGroup = 14ACEC8019A1C7A90043C1C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14ACEC7E19A1C7A90043C1C0 /* AFCommon */,
+				14ACEC8E19A1C7A90043C1C0 /* AFCommonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14ACEC8D19A1C7A90043C1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACEC9D19A1C7A90043C1C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14ACECE319A1CD180043C1C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/t_machine_org\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14ACEC7B19A1C7A90043C1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1475148719A327F200F65765 /* UIDevice+AFCommon.m in Sources */,
+				1475147819A31E5600F65765 /* NSArray+AFCommon.m in Sources */,
+				1475148219A31E5600F65765 /* UIView+AFCommon.m in Sources */,
+				1475147A19A31E5600F65765 /* UIButton+AFCommon.m in Sources */,
+				1475147919A31E5600F65765 /* NSString+AFCommon.m in Sources */,
+				1475147B19A31E5600F65765 /* UIColor+AFCommon.m in Sources */,
+				1475147D19A31E5600F65765 /* UIImage+AFCommon.m in Sources */,
+				1475147E19A31E5600F65765 /* UILabel+VerticalAlign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ACEC8B19A1C7A90043C1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACEC9F19A1C7A90043C1C0 /* AFCommonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14ACEC9619A1C7A90043C1C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14ACEC7E19A1C7A90043C1C0 /* AFCommon */;
+			targetProxy = 14ACEC9519A1C7A90043C1C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14ACEC9B19A1C7A90043C1C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14ACEC9C19A1C7A90043C1C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14ACECA019A1C7A90043C1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14ACECA119A1C7A90043C1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14ACECA319A1C7A90043C1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFCommon.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFCommon/AFCommon-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14ACECA419A1C7A90043C1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFCommon.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFCommon/AFCommon-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14ACECA619A1C7A90043C1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFCommon/AFCommon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFCommonTests/AFCommonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14ACECA719A1C7A90043C1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFCommon/AFCommon-Prefix.pch";
+				INFOPLIST_FILE = "AFCommonTests/AFCommonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14ACEC7A19A1C7A90043C1C0 /* Build configuration list for PBXProject "AFCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ACECA019A1C7A90043C1C0 /* Debug */,
+				14ACECA119A1C7A90043C1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ACECA219A1C7A90043C1C0 /* Build configuration list for PBXNativeTarget "AFCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ACECA319A1C7A90043C1C0 /* Debug */,
+				14ACECA419A1C7A90043C1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ACECA519A1C7A90043C1C0 /* Build configuration list for PBXNativeTarget "AFCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ACECA619A1C7A90043C1C0 /* Debug */,
+				14ACECA719A1C7A90043C1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14ACEC7719A1C7A90043C1C0 /* Project object */;
+}
