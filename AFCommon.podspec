@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                    There are a lot of the category of method.
                    DESC
 
-  s.homepage     = "http://blog.afantree.com/afcommon"
+  s.homepage     = "http://blog.afantree.com/github/afcommon"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
