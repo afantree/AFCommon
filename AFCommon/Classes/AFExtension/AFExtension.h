@@ -24,4 +24,6 @@
 
 #import "UIButton+AFCommon.h"
 
+#import "UIDevice+AFCommon.h"
+
 #endif

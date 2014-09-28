@@ -31,5 +31,33 @@
 //当前应用名字
 #define APP_CURRENT_NAME [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
 
+//Device
+#define IS_4_INCH ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_PAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define IS_IOS7_ABOVE ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f)
+
+#pragma mark -- 编译选项
+#if DEBUG
+#else
+    #define NSLog(FORMAT, ...) nil
+#endif
+
+//区分模拟器和真机
+#if TARGET_OS_IPHONE
+//iPhone Device
+#endif
+#if TARGET_IPHONE_SIMULATOR
+//iPhone Simulator
+#endif
+
+
+//区分ARC
+#if __has_feature(objc_arc)
+//compiling with ARC
+#else
+//compiling without ARC
+#endif
 
 #endif

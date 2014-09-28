@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFCommon"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "AFCommon is a tools for convenient to fast development."
 
   s.description  = <<-DESC
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/afantree/AFCommon.git", :tag => "2.0.0" }
+  s.source       = { :git => "https://github.com/afantree/AFCommon.git", :tag => "2.0.1" }
   s.source_files  = "AFCommon/Classes/*"
 
   s.subspec 'AFExtension' do |ss|
