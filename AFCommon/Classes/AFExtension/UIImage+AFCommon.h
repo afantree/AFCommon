@@ -47,6 +47,10 @@
  @returns 新的图片
  */
 - (UIImage *)changeColorWithColor:(UIColor *)theColor;
+/**
+ 修正图片的转向(从相机中取出的照片容易转向)
+ */
+- (UIImage *)orientationFixed;
 #pragma mark - 类方法
 /**
  生成一张纯色的image
