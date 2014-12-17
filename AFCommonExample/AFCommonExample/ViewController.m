@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSString* hex = @"0xa0ffe4";
     NSLog(@"%@",[UIColor colorWithHexString:hex]);
+    
 }
 
 - (void)didReceiveMemoryWarning

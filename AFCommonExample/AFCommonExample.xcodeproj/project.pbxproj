@@ -29,6 +29,8 @@
 		147514C819A3350D00F65765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147514AA19A3350D00F65765 /* UIKit.framework */; };
 		147514D019A3350D00F65765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147514CE19A3350D00F65765 /* InfoPlist.strings */; };
 		147514D219A3350D00F65765 /* AFCommonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147514D119A3350D00F65765 /* AFCommonExampleTests.m */; };
+		DFBBFC301A41C9B20003556F /* CryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBBFC2F1A41C9B20003556F /* CryptoTests.m */; };
+		DFBBFC331A41CC510003556F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBBFC321A41CC510003556F /* NSData+CommonCrypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		147514CD19A3350D00F65765 /* AFCommonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFCommonExampleTests-Info.plist"; sourceTree = "<group>"; };
 		147514CF19A3350D00F65765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		147514D119A3350D00F65765 /* AFCommonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCommonExampleTests.m; sourceTree = "<group>"; };
+		DFBBFC2F1A41C9B20003556F /* CryptoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoTests.m; sourceTree = "<group>"; };
+		DFBBFC311A41CC510003556F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		DFBBFC321A41CC510003556F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,8 @@
 				146F181D19A3388C00135789 /* AFExtension.h */,
 				146F181E19A3388C00135789 /* NSArray+AFCommon.h */,
 				146F181F19A3388C00135789 /* NSArray+AFCommon.m */,
+				DFBBFC311A41CC510003556F /* NSData+CommonCrypto.h */,
+				DFBBFC321A41CC510003556F /* NSData+CommonCrypto.m */,
 				146F182019A3388C00135789 /* NSString+AFCommon.h */,
 				146F182119A3388C00135789 /* NSString+AFCommon.m */,
 				146F182219A3388C00135789 /* UIButton+AFCommon.h */,
@@ -201,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				147514D119A3350D00F65765 /* AFCommonExampleTests.m */,
+				DFBBFC2F1A41C9B20003556F /* CryptoTests.m */,
 				147514CC19A3350D00F65765 /* Supporting Files */,
 			);
 			path = AFCommonExampleTests;
@@ -320,6 +328,7 @@
 				147514BD19A3350D00F65765 /* ViewController.m in Sources */,
 				147514B719A3350D00F65765 /* AppDelegate.m in Sources */,
 				147514B319A3350D00F65765 /* main.m in Sources */,
+				DFBBFC331A41CC510003556F /* NSData+CommonCrypto.m in Sources */,
 				146F183519A3388C00135789 /* UIView+AFCommon.m in Sources */,
 				146F183419A3388C00135789 /* UILabel+VerticalAlign.m in Sources */,
 				146F183219A3388C00135789 /* UIDevice+AFCommon.m in Sources */,
@@ -330,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBBFC301A41C9B20003556F /* CryptoTests.m in Sources */,
 				147514D219A3350D00F65765 /* AFCommonExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

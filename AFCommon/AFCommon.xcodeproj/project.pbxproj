@@ -35,6 +35,7 @@
 		14ACED6219A1D5A00043C1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6119A1D5A00043C1C0 /* UIKit.framework */; };
 		14ACED6419A1D5C10043C1C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6319A1D5C10043C1C0 /* CoreGraphics.framework */; };
 		14ACED6619A1D5CD0043C1C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ACED6519A1D5CD0043C1C0 /* QuartzCore.framework */; };
+		DFBBFC251A41C8750003556F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBBFC241A41C8750003556F /* NSData+CommonCrypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		14ACED6119A1D5A00043C1C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14ACED6319A1D5C10043C1C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		14ACED6519A1D5CD0043C1C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFBBFC231A41C8750003556F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		DFBBFC241A41C8750003556F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,20 +138,22 @@
 				1475145D19A31E5600F65765 /* AFExtension.h */,
 				1475145E19A31E5600F65765 /* NSArray+AFCommon.h */,
 				1475145F19A31E5600F65765 /* NSArray+AFCommon.m */,
+				DFBBFC231A41C8750003556F /* NSData+CommonCrypto.h */,
+				DFBBFC241A41C8750003556F /* NSData+CommonCrypto.m */,
 				1475146019A31E5600F65765 /* NSString+AFCommon.h */,
 				1475146119A31E5600F65765 /* NSString+AFCommon.m */,
 				1475146219A31E5600F65765 /* UIButton+AFCommon.h */,
 				1475146319A31E5600F65765 /* UIButton+AFCommon.m */,
 				1475146419A31E5600F65765 /* UIColor+AFCommon.h */,
 				1475146519A31E5600F65765 /* UIColor+AFCommon.m */,
+				1475148519A327F200F65765 /* UIDevice+AFCommon.h */,
+				1475148619A327F200F65765 /* UIDevice+AFCommon.m */,
 				1475146819A31E5600F65765 /* UIImage+AFCommon.h */,
 				1475146919A31E5600F65765 /* UIImage+AFCommon.m */,
 				1475146A19A31E5600F65765 /* UILabel+VerticalAlign.h */,
 				1475146B19A31E5600F65765 /* UILabel+VerticalAlign.m */,
 				1475147219A31E5600F65765 /* UIView+AFCommon.h */,
 				1475147319A31E5600F65765 /* UIView+AFCommon.m */,
-				1475148519A327F200F65765 /* UIDevice+AFCommon.h */,
-				1475148619A327F200F65765 /* UIDevice+AFCommon.m */,
 			);
 			path = AFExtension;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 			files = (
 				1475148719A327F200F65765 /* UIDevice+AFCommon.m in Sources */,
 				1475147819A31E5600F65765 /* NSArray+AFCommon.m in Sources */,
+				DFBBFC251A41C8750003556F /* NSData+CommonCrypto.m in Sources */,
 				1475148219A31E5600F65765 /* UIView+AFCommon.m in Sources */,
 				1475147A19A31E5600F65765 /* UIButton+AFCommon.m in Sources */,
 				1475147919A31E5600F65765 /* NSString+AFCommon.m in Sources */,

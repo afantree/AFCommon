@@ -25,5 +25,7 @@
 #import "UIButton+AFCommon.h"
 
 #import "UIDevice+AFCommon.h"
+//加密的扩展，copy自不维护的项目，没有pod管理
+#import "NSData+CommonCrypto.h"
 
 #endif
