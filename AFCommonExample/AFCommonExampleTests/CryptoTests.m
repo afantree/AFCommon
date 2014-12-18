@@ -30,13 +30,17 @@
     // This is an example of a functional test case.
     NSString* str = @"this is a test";
     NSError* error = nil;
-    NSData* data = [[str dataUsingEncoding:NSUTF8StringEncoding] AES256EncryptedDataUsingKey:@"haha" error:&error];
+    CCCryptorStatus status;
+    NSData* strData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    //NSData* data = [[str dataUsingEncoding:NSUTF8StringEncoding] AES256EncryptedDataUsingKey:@"1234567890123456" error:&error];
+    NSData* data = [strData dataEncryptedUsingAlgorithm:kCCAlgorithmAES128 key:@"1234567890123456" initializationVector:@"0102030405060708" options:kCCOptionPKCS7Padding error:&status];
+    NSLog(@"status = %d",status);
     if (error) {
         NSLog(@"Error = %@",error);
     }
     NSString* aesStr = [data base64EncodedStringWithOptions:NSDataBase64Encoding76CharacterLineLength];
     NSLog(@"AES data = %@",aesStr);
-    NSData* orginData = [[[NSData alloc] initWithBase64EncodedString:aesStr options:NSDataBase64DecodingIgnoreUnknownCharacters] decryptedAES256DataUsingKey:@"haha" error:&error];
+    NSData* orginData = [[[NSData alloc] initWithBase64EncodedString:aesStr options:NSDataBase64DecodingIgnoreUnknownCharacters] decryptedAES256DataUsingKey:@"1234567890123456" error:&error];
     NSString* orginStr = [[NSString alloc] initWithData:orginData encoding:NSUTF8StringEncoding];
     if (error) {
         NSLog(@"Error = %@",error);
